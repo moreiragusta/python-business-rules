@@ -49,7 +49,7 @@ python-business-rules/
 Clone o repositório:
 
 ```bash
-git clone URL_DO_SEU_REPOSITORIO
+git clone https://github.com/moreiragusta/python-business-rules.git
 ```
 
 Acesse a pasta do projeto:
@@ -78,24 +78,10 @@ pip install -r requirements-dev.txt
 
 ## Como executar os testes
 
-No PowerShell:
+Execute:
 
 ```bash
-$env:PYTHONPATH="src"
 pytest
-```
-
-No CMD:
-
-```bash
-set PYTHONPATH=src
-pytest
-```
-
-Também é possível executar os testes usando:
-
-```bash
-python -m pytest
 ```
 
 Se tudo estiver correto, o terminal deverá exibir os testes passando.
