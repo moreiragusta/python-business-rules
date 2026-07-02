@@ -28,14 +28,14 @@ def test_deve_retornar_zero_quando_desconto_for_cem_por_cento():
 
     assert resultado == 0
 
-def test_deve_lancer_erro_quando_preco_for_negativo():
-    with pytest.raises(ValueError, match = "O preço não pode ser negativo"):
+def test_deve_lancar_erro_quando_preco_for_negativo():
+    with pytest.raises(ValueError, match="O preço não pode ser negativo"):
         calcular_preco_com_desconto(-100, 10)
 
 def test_deve_lancar_erro_quando_desconto_for_negativo():
-    with pytest.raises(ValueError, match = "O desconto não pode ser negativo"):
+    with pytest.raises(ValueError, match="O desconto não pode ser negativo"):
         calcular_preco_com_desconto(100, -10)
 
 def test_deve_lancar_erro_quando_desconto_for_maior_que_cem():
-    with pytest.raises(ValueError, match = "O desconto não pode ser maior que 100"):
+    with pytest.raises(ValueError, match="O desconto não pode ser maior que 100"):
         calcular_preco_com_desconto(100, 101)
