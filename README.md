@@ -40,6 +40,7 @@ python-business-rules/
 │   ├── test_descontos.py
 │   └── test_juros.py
 ├── README.md
+├── pyproject.toml
 ├── requirements-dev.txt
 └── .gitignore
 ```
