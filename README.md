@@ -20,6 +20,15 @@ O objetivo deste repositório é praticar lógica de programação aplicada, org
 * Validação de quantidade de meses negativa
 * Arredondamento do resultado para duas casas decimais
 
+### Cálculo de multa por atraso
+
+- Retorno do valor original quando não há atraso
+- Aplicação de multa percentual quando há atraso
+- Validação de valor original negativo
+- Validação de percentual de multa negativo
+- Validação de dias de atraso negativo
+- Arredondamento do resultado para duas casas decimais
+
 ## Tecnologias usadas
 
 * Python
@@ -35,10 +44,12 @@ python-business-rules/
 │   └── business_rules/
 │       ├── __init__.py
 │       ├── descontos.py
-│       └── juros.py
+│       ├── juros.py
+│       └── multas.py
 ├── tests/
 │   ├── test_descontos.py
-│   └── test_juros.py
+│   ├── test_juros.py
+│   └── test_multas.py
 ├── README.md
 ├── pyproject.toml
 ├── requirements-dev.txt
